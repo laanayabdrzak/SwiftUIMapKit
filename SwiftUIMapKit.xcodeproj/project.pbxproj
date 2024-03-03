@@ -11,6 +11,8 @@
 		1925D8072B93ECD400F14788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D8062B93ECD400F14788 /* ContentView.swift */; };
 		1925D8092B93ECD700F14788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D8082B93ECD700F14788 /* Assets.xcassets */; };
 		1925D80D2B93ECD700F14788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D80C2B93ECD700F14788 /* Preview Assets.xcassets */; };
+		1925D8142B93EDE100F14788 /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D8132B93EDE100F14788 /* CLLocationCoordinate2D.swift */; };
+		1925D8162B93FECE00F14788 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D8152B93FECE00F14788 /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1925D8082B93ECD700F14788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1925D80A2B93ECD700F14788 /* SwiftUIMapKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMapKit.entitlements; sourceTree = "<group>"; };
 		1925D80C2B93ECD700F14788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1925D8132B93EDE100F14788 /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
+		1925D8152B93FECE00F14788 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				1925D8042B93ECD400F14788 /* SwiftUIMapKitApp.swift */,
 				1925D8062B93ECD400F14788 /* ContentView.swift */,
+				1925D8152B93FECE00F14788 /* LocationDetailsView.swift */,
+				1925D8132B93EDE100F14788 /* CLLocationCoordinate2D.swift */,
 				1925D8082B93ECD700F14788 /* Assets.xcassets */,
 				1925D80A2B93ECD700F14788 /* SwiftUIMapKit.entitlements */,
 				1925D80B2B93ECD700F14788 /* Preview Content */,
@@ -141,6 +147,8 @@
 			files = (
 				1925D8072B93ECD400F14788 /* ContentView.swift in Sources */,
 				1925D8052B93ECD400F14788 /* SwiftUIMapKitApp.swift in Sources */,
+				1925D8162B93FECE00F14788 /* LocationDetailsView.swift in Sources */,
+				1925D8142B93EDE100F14788 /* CLLocationCoordinate2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
