@@ -15,14 +15,14 @@ struct LocationDetailsView: View {
     @Binding var getDirections: Bool
     
     var body: some View {
-        VStack {
-            HStack {
+        VStack() {
+            HStack(alignment: .center) {
                 VStack(alignment: .leading) {
-                    Text(mapSelection?.placemark.name ?? "")
+                    Text(mapSelection?.placemark.name ?? "starbucks")
                         .font(.title2)
                         .fontWeight(.semibold)
                     
-                    Text(mapSelection?.placemark.title ?? "")
+                    Text(mapSelection?.placemark.title ?? "1702 downtown, everset test quiksdfsd sdgsdfd")
                         .font(.footnote)
                         .foregroundStyle(.teal)
                         .lineLimit(/*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
@@ -41,6 +41,7 @@ struct LocationDetailsView: View {
                         .foregroundStyle(.gray, Color(.systemGray6))
                 })
             }
+            .padding()
             if let scene = lookAroundScene {
                 LookAroundPreview(initialScene: scene)
                     .frame(height: 200)

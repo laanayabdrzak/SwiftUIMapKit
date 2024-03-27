@@ -76,8 +76,8 @@ struct ContentView: View {
             LocationDetailsView(mapSelection: $mapSelection,
                                 show: $showDetails,
                                 getDirections: $getDirections)
-            .presentationDetents([.height(340)])
-            .presentationBackgroundInteraction(.enabled(upThrough: .height(340)))
+            .presentationDetents([.height(350)])
+            .presentationBackgroundInteraction(.enabled(upThrough: .height(350)))
             .presentationCornerRadius(12)
         })
         .mapControls {
